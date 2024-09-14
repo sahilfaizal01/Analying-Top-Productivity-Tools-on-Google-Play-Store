@@ -1,6 +1,10 @@
 # Analysing Top Productivity Tools on Google Play Store
 Using python data analysis and predictive modelling using BERT to find sentiments from reviews
 
+# Apps 
+![image](https://github.com/user-attachments/assets/2a5fe5fe-5f10-4661-a0ed-9371b52e1f9f)
+
+
 # Note:
 * Since BERT can only handle up to 512 tokens in one pass, you would need to split the text into multiple chunks, each containing no more than 512 tokens.
 * The input IDs are numerical representations of the text that the model can understand. When you tokenize a sentence (e.g., "BERT is great"), each token is mapped to a unique ID from the tokenizer's vocabulary.
