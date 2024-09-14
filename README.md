@@ -44,3 +44,9 @@ BERT is simply a pre-trained stack of Transformer Encoders. How many Encoders? W
 * The attention mask is a binary mask (i.e., a list of 1s and 0s) that tells the model which tokens to pay attention to and which to ignore. Specifically:
   * 1 indicates that the corresponding token should be attended to (i.e., it's part of the actual text).
   * 0 indicates that the corresponding token is just padding and should be ignored by the model.
+
+# References
+1) [HuggingFace Transformers](https://huggingface.co/docs/transformers/index)
+2) [How to fine-tune BERT model for text classification](https://arxiv.org/pdf/1905.05583)
+3) [BERT fine-tuning PyTorch](https://mccormickml.com/2019/07/22/BERT-fine-tuning/)
+4) [BERT, ELMo and co.](https://jalammar.github.io/illustrated-bert/)
